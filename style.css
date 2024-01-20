@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: black;
+}
+.main {
+  background-image: url("assets/Netflix\ bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: max(800px,100vw);
+  height: 90vh;
+  position: relative;
+}
+.main .box {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.64;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  display: flex;
+  max-width: 82vw;
+  height: 62px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;  
+}
+nav img {  
+  width: 150px;
+  position: relative;
+  z-index: 1;
+}
+nav button {
+  position: relative;
+  z-index: 1;
+}
+.hero {
+  height: calc(100% - 69px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  font-family: "Martel Sens", sans-serif;
+  gap: 23px;
+  padding: 0 30px;  
+}
+.hero> :first-child {
+  font-weight: 800;
+  font-size: 43px;
+  text-align: center;
+  padding: 34px;
+}
+.hero> :nth-child(2) {
+  font-weight: 400;
+  font-size: 23px;
+  text-align: center;
+  padding: 34px;
+}
+.hero :nth-child(3) {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+.separation{
+    height: 7px; 
+    background-color: grey;
+}
+.separation2{
+  height: 7px; 
+  background-color: rgb(61, 59, 59);
+}
+.btn{
+    padding: 2px 10px;
+    font-weight: 600;
+    background-color: rgba(23,23,23,0.4);
+    border-radius: 4px;
+    border: none;
+    height: 29px;
+    color: white;    
+}
+.btn-1{
+    border: 1px solid grey;
+    padding: 0 13px;
+    margin-right: 20px;
+    height: 34px;
+}
+.btn-red{
+    height: 50px;
+    background-color: rgb(209, 30, 30);
+    color: white;
+    padding: 5px 30px 5px 30px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+    padding: 0 14px;
+    height: 34px;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+    padding: 15px 90px 15px 9px;
+    font-size: 15px;
+    border-radius: 3px;    
+    background-color: rgba(23,23,23,0.7);
+    border: 1px solid grey;  
+    font-weight: 500;   
+    color: white;  
+}
+.first{
+  display: flex;
+  justify-content: center;
+  max-width: 75vw;
+  margin: auto;
+  color: white;  
+  align-items: center;
+  padding: 100px;
+  
+}
+.secimg{
+  position: relative;
+}
+.secimg img{
+  width: 505px;
+  position: relative;
+  z-index: 1;
+}
+.secimg video{
+  width: 505px;
+  position: absolute;
+  right: 0;
+  top: 35px;  
+}
+.first> div :nth-child(1){
+  font-family: "Martel Sens",sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: left;
+  margin: 20px 0px;
+}
+.first div> :nth-child(2){
+  font-size: 25px;
+  text-align: left;  
+}
+.faq{
+  color: white;
+  padding-bottom: 60px;
+}
+.faqbox{
+  display: flex;
+  background-color: rgb(47, 47, 47);
+  width: 70vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  font-size: 23px;
+  padding: 0px 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  color: white;
+}
+.faq h2{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 50px;
+  margin-bottom: 14px;
+}
+.faqbox:hover{
+  background-color: #414141;
+}
+.faq .hero-buttons input{
+  padding: 15px 90px 15px 9px;
+  font-size: 15px;
+  border-radius: 3px;    
+  background-color: rgba(23,23,23,0.7);
+  border: 1px solid grey;  
+  font-weight: 500;   
+  color: white;  
+}
+.textt{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+footer{
+  color: rgb(148, 143, 143);  
+  max-width: 60vw;
+  margin: auto;
+  padding: 50px 0px;
+}
+footer span{  
+  margin: 1vw;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;  
+  color: white;  
+}
+
+.footer-item{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.footer a{
+  text-decoration: none;
+  color: rgb(153, 140, 140);
+}
+
+.third .secimg video{  
+  right: 100px;
+  top: 50px;
+  width: 315px;   
+}
+@media screen and (max-width:800px){  
+  .footer{
+    display: grid;
+    grid-template-columns: 0.9fr 1fr;
+    align-items: left;
+  }  
+}
+
+@media screen and (max-width:1000px){  
+  .first{
+    flex-wrap: wrap;
+  }
+  .secimg img{
+    width: 305px;    
+  }
+  .secimg video{
+    width: 305px;    
+  }
+  .third .secimg video{   
+    right: 55px;
+    width: 195px;
+  }
+  .first> div :nth-child(1){
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .first> div :nth-child(2){
+    font-size: 19px;
+  }
+  .hero> :first-child{
+    font-size: 25px;
+    padding: 0;
+  }
+  .hero> :nth-child(2) {    
+    font-size: 15px;    
+    padding: 0px;
+  }
+  .hero> :nth-child(3){
+    font-size: 13px;    
+  }
+  .hero-buttons{
+    gap: 10px;
+    flex-direction :column;
+  }
+  .main input{
+    padding: 15px 20px 15px 9px;   
+  }
+  .btn-red{    
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  nav img {  
+    width: 110px;    
+  }
+  .btn-1{    
+    padding: 0 10px;
+    margin-right: 2px; 
+    height: 27px;  
+  }
+  .btn-red-sm{  
+    padding: 0 10px;
+    height: 27px;
+    font-weight: 600;
+  }
+  .faq .hero-buttons input{
+    padding: 15px 20px 15px 9px;  
+  }
+  .textt{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .main{
+    height: 105vh;
+  }
+  .main .box {
+    height: 105vh;
+    width: 100%;
+    opacity: 0.64;
+    background-color: black;
+    position: absolute;
+    top: 0;
+  }
+  .faq h2{
+    text-align: center;
+    font-size: 37px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 14px;
+  }
+  .hero {
+    height: calc(100% - 73px);
+  }
+  .first{    
+    padding: 10px;
+    text-align: center;    
+  }
+}
